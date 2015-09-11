@@ -1,13 +1,13 @@
 bubble-sort
 
-PASSO A PASSO DAS CARTAS 
+Comparar primeira carta com a segunda, terceira, quarta e quinta cartas
+	se primeira carta < as cartass -> manter, se não -> trocar
+Comparar segunda carta com a terceira, quarta e quinta cartas
+	se a segunda carta < as outras cartas -> manter, se não -> trocar
+Comparar terceira carta com a quarta e quinta carta
+	se a terceira carta < as outras cartas -> manter, se não -> trocar
+Comparar quarta carta com a quinta carta
+	se a quarta carta < quinta carta -> manter, se não -> trocar
 
-Pegar a primeira carta e comparar com a quinta carta - manter ou trocar
-Pegar a segunda carta e comparar com a quarta carta - manter ou trocar
-Pegar a segunda carta e comparar com a terceira - manter ou trocar
-Pegar a terceira carta e comparar com a quarta - manter ou trocar
-Pegar a primeira carte e comparar com a terceira - manter ou trocar
-Pegar a primeira carta e comparar com a segunda - manter ou trocar
-Pegar a quarta carta e comparar com a quinta - manter ou trocar
-Pegar a terceira carta e comparar com a quarta - manter ou trocar
-Verificar a ordem das cartas
+
+OBS: nosso método foi aleatório, não foi possível agrupar da mesma forma que quem fez a versão bubble sort. 
