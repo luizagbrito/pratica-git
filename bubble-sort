@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 for i in range (0, N-2)
 	for j in range (i + 1, N -1):
@@ -9,3 +10,18 @@ for i in range (0, N-2)
 			carta[j] = temp
 
 OBS: Nosso método foi aleatório, isto não se aplica a ele.  Versão fornecida pelo professor; 
+=======
+bubble-sort
+
+Comparar primeira carta com a segunda, terceira, quarta e quinta cartas
+	se primeira carta < as cartass -> manter, se não -> trocar
+Comparar segunda carta com a terceira, quarta e quinta cartas
+	se a segunda carta < as outras cartas -> manter, se não -> trocar
+Comparar terceira carta com a quarta e quinta carta
+	se a terceira carta < as outras cartas -> manter, se não -> trocar
+Comparar quarta carta com a quinta carta
+	se a quarta carta < quinta carta -> manter, se não -> trocar
+
+
+OBS: nosso método foi aleatório, não foi possível agrupar da mesma forma que quem fez a versão bubble sort. 
+>>>>>>> e262afd5113acbb6c7daa31bc0781af90e201407
