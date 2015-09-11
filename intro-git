@@ -1,0 +1,63 @@
+intro-git
+
+PARTE 1
+
+Criou um repositório dentro da pasta pratica-shell chamada repo
+Dentro dela usou o comando git init --bare para criar um git vazio
+Usou o comando ls para ver as pastas que o git criou
+Cricou um clone de repo chamado pratica-git-luiza dentro de pratica-shell
+Entrou na pasta pratica-git-luiza
+Usou os comandos git config --global user.email "email" e git config --global user.name "username" para configurar o git para um usuário
+Copiou os arquivos alunos.txt e intro-shell.txt usando o comando cp para a pasta clona (pratica-git-luiza)
+adicionou o arquivo alunos.txt com o comando git add e adicionou um comentário com as mudanças através do comando git commit -m ""
+Usou o comando git log para verificar se os comandos anteriores funcionaram
+Realizou o procedimento acima (linha 9 e 10) para o arquivo intro-shell.txt
+Criou um arquivo vazio chamado bubble-sort no sublime e o salvou na pasta pratica-git-luiza
+Realizou os procedimentos da linha 9 e 10 novamente para o arquivo bubble-sort.txt
+Usou o comando git push origin master para enviar os arquivos do clone pratica-git-luiza para o repositório original repo
+Usou o comando git log na pasta repo para confirmar a mudança
+
+PARTE 2
+
+Criou um outro clone de repo com o nome de pratica-git-marcia através do comando git clone 
+Entrou na pasta do novo clone com o comando cd
+Verificou o historico com o comando git log
+Configurou a pasta para o username e email do novo usuário (Marcia Ferreira) usando o comando git config user.name "" e git config user.email
+Atualizou o arquivo bubble-sort com as instruções das cartas feitas na última aula e salvou na pasta pratica-git-marcia
+Usou o comando git add, git commit -m e git log na pasta para adicionar o arquivo, comentar e verificar o histórico
+Enviou os arquivos adicionados e atualizados para o repositório original repo usando o comando git push origin master
+Entrou na pasta repo usando o comando cd e verificou o histórico através do comando git log
+
+PARTE 3
+
+Criou outro clone do repositório repo usando o comando git clone chamado pratica-git-gabriel
+Configurou a pasta clone com o usuário e email do Gabriel
+Usou o comando git remote -v para verificar de onde a pasta pratica-git-gabriel foi clonada (repositório repo)
+Verificou o histórico usando git log e verificou-se que ele está atualizado em relação ao repo e a pratica-git-marcia, porém contem mais mudanças do que pratica-git-luiza
+Atualizou o clone pratica-git-gabriel com os arquivos do repo através do comando git pull origin master
+Editou o arquivo bubble-sort com a versão agrupada das instruções das cartas usando o sublime e salvou na pasta pratica-git-gabriel
+Realizou git add para adicionar o arquivo e git commit -m com as mudanças feitas
+Usou o git push para atualizar o repositório original repo 
+Voltou a versão original das instruçoes do bubble-sort usando o comando git checkout <hash referente a mudança desejada> 
+Verificou-se a mudança com o git log
+Voltou novamente para a versão agrupada (mais atual) usando o comando git checkout master
+
+PARTE 4
+
+Voltou até o clone pratica-git-luiza
+Usou git log para verificar o histórico - verificou-se que estava numa versão anterior aos demais
+Editou o arquivo bubble-sort contendo as instruções apresentadas pelo professor em aula (que não condiz com nosso método aleatorio)
+Usou o git add e o git commit para realizar as alterações
+Usou o git push origin master para atualizar o repo -- o que causou um erro, pois haviam mudanças no mesmo que não havia no clone
+Para resolver o erro,  usou-se o git pull origin master para atualizar o clone, porém não abrimos o arquivo para resolver o conflito
+Abrimos o arquivo, consertamos os conflitos e usamos o comando git pull origin master, atualizando assim o repo, solucionando o erro
+Usamos o git add e após o git commit -m para atualizar
+
+PARTE 5
+
+Criamos um repositório online com o nome de pratica-git
+Adicionamos o repositório do github como um remoto no clone pratica-git-luiza com o nome de upstream
+Configuramos o git com o comando git config
+Usamos o git push para enviar do repositório local para o no github
+Criamos um issue no repositório da disciplina com nossos nomes
+
