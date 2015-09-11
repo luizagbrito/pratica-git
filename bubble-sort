@@ -1,1 +1,13 @@
 bubble-sort
+
+PASSO A PASSO DAS CARTAS 
+
+Pegar a primeira carta e comparar com a quinta carta - manter ou trocar
+Pegar a segunda carta e comparar com a quarta carta - manter ou trocar
+Pegar a segunda carta e comparar com a terceira - manter ou trocar
+Pegar a terceira carta e comparar com a quarta - manter ou trocar
+Pegar a primeira carte e comparar com a terceira - manter ou trocar
+Pegar a primeira carta e comparar com a segunda - manter ou trocar
+Pegar a quarta carta e comparar com a quinta - manter ou trocar
+Pegar a terceira carta e comparar com a quarta - manter ou trocar
+Verificar a ordem das cartas
