@@ -1,0 +1,9 @@
+intro-shell
+Abriu o Git Bash
+Usou o comando pwd para saber dentro de qual diretório estava (C://Users/Luiza/)
+Usou o comando cd para entrar na pasta Desktop
+Usou o comando ls para listar todos os arquivos e pastas dentro de Desktop
+Entrou em outra pasta já existente (Random) usando o comando cd 
+Criou uma pasta chamada pratica-shell usando o comando mkdir
+Usou o programa Sublime para criar o arquivo intro-shell.txt
+Salvou o arquivo na pasta pratica-shell
